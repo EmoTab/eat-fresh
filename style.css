@@ -1,14 +1,17 @@
+body{
+ margin: 0;
+}
 img{
  width: 100%;
 }
 .half-width {
  width: 50%;
- border: 1px solid black;
+ padding-left: 4%;
 }
 /* top banner */
 .top-banner{
  display: flex;
- margin: 20px;
+ margin-bottom: 90px;
 }
 .top-banner-text{
  padding-top: 10%;
@@ -21,7 +24,7 @@ img{
 }
 .half-width h1 > span{
  background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
- -webkit-background-clip: text;
+ background-clip: text;
  -webkit-text-fill-color: transparent;
 }
 .half-width h3{
@@ -29,9 +32,6 @@ img{
  margin-bottom: 60px;
  font-family: 'Montserrat', sans-serif;
 }
-/* .half-width img{
- width: 100%;
-} */
 .button{
  color: white;
  font-size: 20px;
@@ -47,23 +47,113 @@ img{
 /* about me */
 .about-me{
  display: flex;
- margin: 20px;
-}
-.about-me-items{
- padding: 8% 8% 0 8%;
-}
-.about-me-items h2{
- padding-top: 26%;
+ background-image: url(images/shapes/about-me-background.png);
+ background-repeat: no-repeat;
+ }
+ .about-me-text{
+  padding-top:8%;
+  padding-right: 8%;
+  padding-left: 8%;
+ }
+.about-me-text h2{
  font-family: 'Montserrat', sans-serif;
  font-size: 40px;
  color: #707070;
 }
-.about-me-items .half-width h3{
+.about-me-text .half-width h3{
  font-family: 'Manrope', sans-serif;
  font-size: 18px;
+ font-weight: 400;
  color: #18191F;
 }
-/* .about-me-items img{
- width: 100%;
-} */
+.about-me-image img{
+ width: 50%;
+ padding-top: 24%;
+ padding-left: 20%;
+}
 
+/* my recipies */
+.my-recipies{
+ padding: 80px 0;
+}
+.section-title{
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+ padding-bottom: 80px;
+}
+.section-title h2{
+ color: #464545;
+}
+.section-title h4{
+ width: 50%;
+ margin: 0 auto;
+ color: #707070;
+}
+
+.section-item{
+ font-family: 'Montserrat', sans-serif;
+ padding: 3% 3% 1% 3%;
+ box-shadow: 2px 2px 30px 10px rgb(214, 213, 213); border-radius: 25px;
+}
+
+.section-item h3{
+ color: #18191F;
+}
+.section-item h4{
+ color: #707070;
+ font-size: 15px;
+}
+
+
+.section-item-container{
+ display: flex;
+ margin: 0 5%;
+ border-radius: 25px;
+}
+
+.section-item-1{
+ margin-right: 2%;
+}
+.section-item-2{
+ margin-left: 2%;
+}
+
+/* count */
+.count{
+ display: flex;
+ width: 90%;
+ margin: 0 auto 90px auto;
+ border-radius: 20px;
+ box-shadow: 2px 2px 30px 10px rgb(214, 213, 213);
+}
+.count-item{
+ padding: 2% 12%;
+}
+.count-item h2{
+ font-family: 'Montserrat', sans-serif;
+}
+.count-item h5{
+ font-family: 'Manrope', sans-serif;
+}
+
+/* foot */
+footer{
+ background: black;
+}
+.footer-item{
+ text-align: center;
+ width: 50%;
+ margin: 0 auto;
+ padding: 40px 
+}
+footer h1{
+ color: #575757;
+ font-family: 'Montserrat', sans-serif;
+}
+footer h1 span{
+ color:rgba(230, 130, 0, 0.952);
+}
+footer h5{
+ color: #707070;
+ font-family: 'Manrope', sans-serif;
+}
