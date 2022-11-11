@@ -1,0 +1,38 @@
+.top-banner{
+ display: flex;
+ margin: 20px;
+ 
+}
+.half-size {
+ width: 50%;
+ font-family: 'Montserrat', sans-serif;
+ /* border: 1px solid black; */
+}
+.half-size h1{
+ color: rgb(90, 88, 88);
+ font-size: 50px;
+}
+.half-size h1 > span{
+ color: orange;
+}
+.half-size h3{
+ color: rgb(117, 117, 117);
+ margin-bottom: 50px;
+}
+.top-banner-text{
+ padding: 3%;
+}
+.top-banner-image{
+ padding-bottom: 20px;
+}
+.order_button{
+ color: white;
+ font-size: 20px;
+ text-decoration: none;
+ background-image: linear-gradient(to right,rgb(230, 230, 105), rgb(250, 98, 72));
+ padding: 20px 40px;
+ border-radius: 40px;
+}
+.half-size img{
+ width: 100%;
+}
